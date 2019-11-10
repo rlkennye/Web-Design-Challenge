@@ -29,7 +29,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" style="color: #6D8092">
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -53,66 +53,49 @@
   <!-- Content Section -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
+      <div>
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Comparison: Latitude vs X</h3>
           <hr>
-          <img src="Resources/assets/images/TemperatureInWorldCities.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>1- When closer to the equator temperature is noticeably higher. Latitude provides the location of a place 
-		     north or south of the equator and is expressed by angular measurements ranging from 0° at the equator to 90° 
-			 at the poles. Different latitudes on Earth receive different amounts of sunlight, and are a key factor in 
-			 determining a region’s climate. For example, the higher the latitude of a given place (the farther away it 
-			 is from the equator), the sharper the angle of the sun’s rays that reach it, meaning that the rays of the 
-			 sun are spread across a broader area. Therefore, higher latitudes receive less heat than lower latitude areas
-			 nearer the equator.</p>
-		  <p>2- Cloudiness and humidity are remarkably impervious to the latitude.</p>
-          <p>3- Higher winds affect the world temperature in all latitudes.</p>
-          
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
-        <div class="box">
-          <h5 class="title">Visualizations Images</h5>
-          <hr>
-
-
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+          <p>Click any plot to get an in-depth analysis.</p>
+          <div class="container" style="padding-bottom: 40px;">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Max Temperature</div>
                 <a href="max_temperature.html">
                   <img class="panel" src="Resources/assets/images/TemperatureInWorldCities.png" alt="Max Temperature Image">
                 </a>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Humidity</div>
                 <a href="humidity.html">
                   <img class="panel" src="Resources/assets/images/HumidityInWorldCities.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
 
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Cloudiness</div>
                 <a href="cloudiness.html">
                   <img class="panel" src="Resources/assets/images/CloudinessInWorldCities.png" alt="Cloudiness Graph">
                 </a>
+
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Wind Speed</div>
                 <a href="wind_speed.html">
                   <img class="panel" src="Resources/assets/images/WindSpeedInWorldCities.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
   </div>
+
   <!-- Footer Section -->
   <footer>
     <div class="footer">Copyright &copy; Ricardo L Kenny 2019</div>

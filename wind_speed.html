@@ -10,10 +10,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-
   <!--CSS Link-->
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
@@ -21,7 +19,7 @@
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" style="background-color: #ada60b;" href="index.html">Latitude</a>
-      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,7 +34,7 @@
               <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item active" href="wind_speed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
@@ -56,28 +54,19 @@
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Wind Speed</h3>
           <hr>
-          <img src="Resources/assets/images/TemperatureInWorldCities.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>1- When closer to the equator temperature is noticeably higher. Latitude provides the location of a place 
-		     north or south of the equator and is expressed by angular measurements ranging from 0° at the equator to 90° 
-			 at the poles. Different latitudes on Earth receive different amounts of sunlight, and are a key factor in 
-			 determining a region’s climate. For example, the higher the latitude of a given place (the farther away it 
-			 is from the equator), the sharper the angle of the sun’s rays that reach it, meaning that the rays of the 
-			 sun are spread across a broader area. Therefore, higher latitudes receive less heat than lower latitude areas
-			 nearer the equator.</p>
-		  <p>2- Cloudiness and humidity are remarkably impervious to the latitude.</p>
-          <p>3- Higher winds affect the world temperature in all latitudes.</p>
-          
+          <img src="Resources/assets/images/WindSpeedInWorldCities.png" alt="Wind Speed Graph">
+          <p>Wind speed appears to slightly increase as we move away from the equator. However, to conclusively
+            describe a pattern, we would need to go beyond the range in data to reach cities at closer to the poles.
+            Only then can we have a sample large to confirm the pattern.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
         <!-- Right Box -->
         <div class="box">
-          <h5 class="title">Visualizations Images</h5>
+          <h5 class="title">Visualizations</h5>
           <hr>
-
-
           <div class="container">
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
@@ -91,7 +80,6 @@
                 </a>
               </div>
             </div>
-
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="cloudiness.html">
@@ -100,15 +88,11 @@
               </div>
               <div class="col-6">
                 <a href="wind_speed.html">
-                  <img class="panel" src="Resources/assets/images/WindSpeedInWorldCities.png" alt="Wind Speed Graph">
+                  <img class="panel active" src="Resources/assets/images/WindSpeedInWorldCities.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
@@ -125,7 +109,6 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
